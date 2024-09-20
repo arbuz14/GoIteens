@@ -1,0 +1,10 @@
+name = input("Введіть своє ім'я: ")
+age = input("Введіть свій вік: ")
+city = input("Введіть місто проживання: ")
+
+pet_name = input("Введіть кличку домашнього улюбленця: ")
+pet_age = input("Введіть вік домашнього улюбленця: ")
+
+print(f"Name {name}, Age {age}, City {city}. У вас є домашній улюбленець {pet_name} якому {pet_age} років", end=' ')
+print(f"Name {name}, Age {age}, City {city}. У вас є домашній улюбленець {pet_name} якому {pet_age} років", end='\n', file=open('test.txt', 'a'))
+
